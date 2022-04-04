@@ -1,0 +1,14 @@
+server:
+  port: 5000
+
+#EC2
+#eureka.client.serviceUrl.defaultZone= https://ec2-3-87-217-134.compute-1.amazonaws.com:8761/eureka
+#eureka.client.fetch-registry=true
+#eureka.client.register-with-eureka=true
+aws:
+  access:
+    key: AKIATGVST24JJ7NGOZAZ
+    secret-key: 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
+  region: us-east-1
+  end-point:
+    url: https://dynamodb.us-east-1.amazonaws.com
